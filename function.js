@@ -106,8 +106,8 @@ places('exam hall')
 
 function calculataeAverage (result1, result2, result3, result4) {
     let totalResult = result1 + result2 + result3 + result4;
-    totalResult= totalResult/4
-    console.log(totalResult);
+    let average= totalResult/4
+    console.log(average);
     
 }
 calculataeAverage(80, 80, 90, 86)
@@ -119,6 +119,37 @@ calculataeAverage(100, 90, 82, 98)
 console.log(avarageResult);
 console.log(avarageResult2);
 console.log(avarageResult3); */
+
+
+function averageResult (result1, result2, result3, result4) {
+    let totalResult= result1+result2+result3+result4;
+    let average=totalResult/4;
+    console.log(average);
+    
+
+}
+averageResult(50, 90, 45, 77)
+averageResult(70, 100, 80, 85)
+averageResult(33, 40, 75, 69)
+
+
+function resultInAverage (result1, result2, result3, result4, result5) {
+    let totalResult = result1 + result2 + result3 + result4 + result5
+    let average = totalResult/5
+    console.log(average);
+    
+}
+resultInAverage(50, 65, 82, 65, 74)
+resultInAverage(57, 57, 83, 98, 72)
+
+
+function averageResultOfStudents (result1, result2, result3, result4) {
+    let totalResult = result1 + result2 + result3 + result4
+    let average = totalResult/4
+    console.log(average);
+}
+averageResultOfStudents(60, 80, 65, 93)
+averageResultOfStudents(50, 86, 78, 43)
 
 
 
