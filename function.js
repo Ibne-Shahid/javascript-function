@@ -59,6 +59,48 @@ greetUser('Abid')
 greetUser('Parvez')
 
 
+function sentence(places) {
+    console.log(`I want to go ${places}`);
+    
+    
+}
+sentence('home')
+sentence('playground')
+sentence('school')
+
+
+function greetUser2(userName) {
+    if (userName === 'Anas') {
+        console.log('Hi Anas! How are you?');
+        
+    } else if (userName === 'Goutam') {
+        console.log('Hello Goutam! How is your day going?');
+        
+    } else {
+        console.log('Hey Sanwar! Wish you a very happy coding life.');
+        
+    }
+
+}
+greetUser2('Anas')
+greetUser2('Goutam')
+greetUser2('Sanwar')
+
+
+function places (placeName) {
+    if (placeName==='home') {
+        console.log('I want to go home');
+        
+    } else if (placeName==='school') {
+        console.log('I hate school');
+        
+    } else {console.log('I love to go to exam hall')}
+}
+places('home')
+places('school')
+places('exam hall')
+
+
 
 /* Calculating Average */
 
