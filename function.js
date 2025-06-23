@@ -9,6 +9,42 @@ sum (5, 10, 15)
 sum (20, 10, 15)
 
 
+function subtract (a, b, c, d) {
+    let total = a-b-c-d
+    console.log(total);
+    
+}
+subtract(100, 20, 50, 10)
+subtract(150, 20, 30, 45)
+
+
+function multiply (a, b, c, d) {
+    let total = a*b*c*d
+    console.log(total);
+    
+}
+multiply(5, 10, 2, 4)
+multiply(2, 4, 10, 5)
+
+
+function divide (a, b, c) {
+    let total = a/b/c
+    console.log(total);
+    
+}
+divide(200, 4, 2)
+divide(300, 2, 3)
+
+
+function all(a, b, c, d, e) {
+    let total = a+b-c*d/e
+    console.log(total);
+    
+}
+all(100, 100, 3, 100, 2)
+all(500, 100, 2, 1000, 4)
+
+
 
 /* Greeting User */
 
