@@ -169,8 +169,61 @@ sumArray([50, 75, 15, 20])
 sumArray([55, 105, 15, 205])
 
 
+function sumArray2 (numbers) {
+    let total = 0;
+    for (i=0; i<numbers.length; i=i+1) {
+        total = total+numbers[i]
+        console.log(total);
+        
+    }
+}
+sumArray2([20, 50, 65, 85])
+
+
+function sumArray3 (numbers) {
+    let total=0;
+    for (i=0; i<numbers.length; i=i+1)
+        total = total + numbers[i];
+    return total
+}
+let result = sumArray3([20, 40, 10, 30])
+console.log(result);
+let result2 = sumArray3([50, 40, 10, 30])
+console.log(result2);
+
+
+function sumArray4 (numbers) {
+    let total=0;
+    for (i=0; i<numbers.length; i=i+1)
+        total = total + numbers[i];
+    return total
+}
+let result3 = sumArray3([60, 50, 55, 35])
+console.log(result3);
+let result4 = sumArray3([75, 5, 10, 20])
+console.log(result4);
+
+
 
 /* Calculating vat with prices */
+
+function calculatePriceWithVat (price, vatRate) {
+    let mainPrice = price + (price * vatRate / 100)
+    console.log(mainPrice);
+    
+}
+calculatePriceWithVat(500, 15)
+calculatePriceWithVat(760, 10)
+
+
+function priceWithVat (price, vatRate) {
+    let mainPrice = price + (price * vatRate / 100)
+    console.log(mainPrice);
+    
+}
+priceWithVat(200, 10)
+priceWithVat(500, 10)
+
 
 let prices = [100, 200, 300]
 function calculateTotalPrice (prices, vatRate) {
@@ -186,3 +239,15 @@ function calculateTotalPrice (prices, vatRate) {
 calculateTotalPrice(prices, 0.10)
 
 
+let prices2 = [200, 500, 700, 300]
+function calculateTotalPrice2 (prices2, vatRate) {
+    let totalPrice = 0;
+    for (i=0; i<prices2.length; i=i+1) {
+        totalPrice = totalPrice + prices2[i]
+    }
+    let vat = totalPrice * vatRate
+    totalPrice = totalPrice + vat;
+    console.log(totalPrice);
+    
+}
+calculateTotalPrice2(prices2, 0.15)
